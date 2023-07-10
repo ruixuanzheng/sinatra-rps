@@ -2,7 +2,13 @@ require 'sinatra'
 
 get('/') do
   "
-  <h1>Welcome to your Sinatra App!</h1>
-  <p>Define some routes in app.rb</p>
+  <ul>
+    <li><a href=\"Play\">Play Rock</a></li>
+    <li><a href=\"Play\">Play Paper</a></li>
+    <li><a href=\"Play\">Play Scissors</a></li>
+  </ul>
+  <h1>Welcome to Rock-Paper-Scissors!</h1>
+  <p>From<a href=\"https://en.wikipedia.org/wiki/Rock_paper_scissors\">Wikipedia</a></p>
+
   "
 end
